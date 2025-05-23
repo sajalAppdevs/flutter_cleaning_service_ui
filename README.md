@@ -1,42 +1,90 @@
 # Flutter Cleaning Service UI
 
-Layouting the UI for Cleaning Service Online App
+A modern and elegant Flutter UI implementation for a cleaning service application. This project showcases a beautiful user interface for a cleaning service booking platform with subscription packages.
 
-## Youtube Link
+## Features
 
-[![Watch the video](https://img.youtube.com/vi/qs91QvnoVWE/sddefault.jpg)](https://youtu.be/qs91QvnoVWE)
+- 🎨 Modern and clean UI design
+- 💫 Smooth animations and transitions
+- 🎯 Subscription package selection
+- 📱 Responsive layout
+- 🔤 Custom font implementation (Ubuntu)
+- 🎭 Custom color schemes
 
-https://youtu.be/qs91QvnoVWE
+## Screenshots
 
-## Widget
+| Splash Screen | Main Page |
+|--------------|------------|
+| ![Splash Screen](assets/image/splash.png) | ![Main Page](assets/image/img1.png) |
 
-- Stack
-- MediaQuery
-- BorderRadius
-- Icon
-- InkWell
-- Navigator push
-- Data Class
-- Column
-- Row
-- Image Asset
-- App Bar
-- Stateful widget
-- Stateless widget
-- setState
-- SizedBox
-- Container
-- Text
-- TextStyle
-- Scaffold
-- SizedBox
+## Getting Started
 
+### Prerequisites
 
-## ScreenShot
+- Flutter SDK (>=2.17.0 <3.0.0)
+- Dart SDK
+- Android Studio / VS Code
+- Android Emulator / iOS Simulator
 
-| Home        | Detail    |
-|--------------|-----------|
-| <img src="img1.png" width="300"/> | <img src="img2.png" width="300"/>      |
+### Installation
+
+1. Clone this repository
+   ```bash
+   git clone https://github.com/yourusername/flutter_cleaning_service_ui.git
+   ```
+
+2. Navigate to project directory
+   ```bash
+   cd flutter_cleaning_service_ui
+   ```
+
+3. Install dependencies
+   ```bash
+   flutter pub get
+   ```
+
+4. Run the app
+   ```bash
+   flutter run
+   ```
+
+## Project Structure
+
+```
+lib/
+├── color_schema.dart    # Custom color definitions
+├── main.dart           # Application entry point
+├── main_page.dart      # Main subscription page
+└── splash_screen.dart  # Initial splash screen
+```
+
+## Dependencies
+
+- `flutter_lints: ^5.0.0` - Recommended lints for Flutter apps
+- `cupertino_icons: ^1.0.2` - iOS style icons
+
+## Custom Assets
+
+### Fonts
+- Ubuntu Regular - Primary font family
+
+### Images
+- Splash screen image
+- Package preview images
+- Various icons
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Design inspiration from modern cleaning service applications
+- Flutter community for amazing widgets and packages
 
 
 
